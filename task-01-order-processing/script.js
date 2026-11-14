@@ -1,7 +1,7 @@
 const orders = [
   { id: 1, product: "Laptop", stock: 5 },
   { id: 2, product: "Mouse", stock: 0 },
-  { id: 3, product: "Keyboard", stock: 8 },
+  { id: 3, product: "Keyboard", stock: 8 }
 ];
 function processOrder(orderId) {
   return new Promise((resolve, reject) => {
